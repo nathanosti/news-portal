@@ -15,24 +15,26 @@
 <body>
 <div class="">
   <!-- Barra de navegação -->
-<header>
-  <a href="#">
-    <img class='logo' src="./assets/colorLogo.svg" alt="NBC News" >
-  </a>
-    <nav>
-      <ul>
-        <li>Corona Updates</li>
-        <li>Politics</li>
-        <li>Business</li>
-        <li>Sports</li>
-        <li>World</li>
-        <li>Travel</li>
-        <li>Podcasts</li>
-        <li><i class="far fa-user"></i></li>
-        <li><i class="fas fa-search"></i></li>
-      </ul>
-    </nav>
-</header>
+  <div class='header-container'>
+    <header>
+      <a href="#">
+        <img class='logo' src="./assets/colorLogo.svg" alt="NBC News" >
+      </a>
+        <nav class="header-nav">
+          <ul>
+            <li>Corona Updates</li>
+            <li>Politics</li>
+            <li>Business</li>
+            <li>Sports</li>
+            <li>World</li>
+            <li>Travel</li>
+            <li>Podcasts</li>
+            <li><i class="far fa-user"></i></li>
+            <li><i class="fas fa-search"></i></li>
+          </ul>
+        </nav>
+    </header>
+  </div>
 <!-- Trending Topics -->
 
     <div class="trending-topic">
@@ -53,9 +55,184 @@
     <span>Kanye West says he's running for president in 2020.</span>
   </div>
 <!-- News page -->
-  <main class="news-container">
+  <div class="content-container">
 
-  </main>
-</div>
+    <div class="news-container">
+      <nav class="news-header">
+        <ul>
+          <li>
+            <a href="#">
+              Latest Stories
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Think
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              Health
+            </a>
+          </li>
+        </ul>
+        <button class="hamb-news-menu">
+          <img  src="./assets/hamburger-news.svg">
+        </button>
+      </nav>
+
+      <div class="news-contents">
+        <div class="news-contents-row">
+
+          <div class="news-content-card">
+            <div class="card-header">
+              <img src="./assets/imgs/blackMan.png" >
+            </div>
+            <div class="card-content">
+              <span class="content-tittle">
+                John Lewis to make final journey across Edmund Pettus Bridge in procession
+              </span>
+              <span class="content-text">
+                The body of the late US Rep. John Lewis on Sunday will make the final journey across the famous bridge in Selma, Alabama, where he helped lead a march for voting rights in 1965.
+              </span>
+              <div class="content-credits">
+                <span class="content-time">2 hours ago</span>
+                <span class="content-author">
+                  By Lucy Hiddleston  |  4min read
+                </span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div class="footer-items">
+                <i class="fas fa-heart" style="color: #C31815; font-size: 20px;"></i>
+                <span class="numbers">28</span>
+                <img src="./assets/upload.svg" class="footer-icon">
+                <span class="numbers">72</span>
+                <img src="./assets/save.svg" class="footer-icon">
+              </div>
+            </div>
+          </div>
+
+          <div class="news-content-card">
+            <div class="card-header">
+              <img src="./assets/imgs/horse.png" alt="">
+            </div>
+            <div class="card-content">
+              <span class="content-tittle">
+                John Lewis, civil rights giant, crosses infamous Selma bridge one final time
+              </span>
+              <span class="content-text">
+                Solemn crowds watch as Lewis, who died earlier this month at the age of 80, is borne by caisson over Edmund Pettus Bridge
+              </span>
+              <div class="content-credits">
+                <span class="content-time">4 hours ago</span>
+                <span class="content-author">
+                  By Caroline Casey  |  4min read
+                </span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div class="footer-items">
+                <i class="far fa-heart" style="font-size: 20px;"></i>
+                <span class="numbers">28</span>
+                <img src="./assets/upload.svg" class="footer-icon">
+                <span class="numbers">72</span>
+                <img src="./assets/save.svg" class="footer-icon">
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="news-contents-row">
+        <div class="news-content-card">
+          <div class="card-header">
+            <img src="./assets/imgs/space.png" alt="">
+          </div>
+          <div class="card-content">
+            <span class="content-tittle">
+              Tornado and tide warnings as Storm Hanna lashes Texas
+            </span>
+            <span class="content-text">
+              The body of the late US Rep. John Lewis on Sunday will make the final journey across the famous bridge in Selma, Alabama, where he helped lead a march for voting rights in 1965.
+            </span>
+            <div class="content-credits">
+              <span class="content-time">5 hours ago</span>
+              <span class="content-author">
+                By Lucy Hiddleston  |  4min read
+              </span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="footer-items">
+              <i class="far fa-heart" style="font-size: 20px;"></i>
+              <span class="numbers">28</span>
+              <img src="./assets/upload.svg" class="footer-icon">
+              <span class="numbers">72</span>
+              <img src="./assets/save.svg" class="footer-icon">
+            </div>
+          </div>
+        </div>
+
+        <div class="news-content-card">
+          <div class="card-header">
+            <img src="./assets/imgs/apple.png" alt="">
+          </div>
+          <div class="card-content">
+            <span class="content-tittle">
+              20 Years Ago, Steve Jobs Built the ‘Coolest Computer Ever.’ It Bombed
+            </span>
+            <span class="content-text">
+              This month marks the 20th anniversary of the Power Mac G4 Cube, which debuted July 19, 2000. It also marks the 19th anniversary of Apple’s announcement that it was putting the Cube on ice.
+            </span>
+            <div class="content-credits">
+              <span class="content-time">12 hours ago</span>
+              <span class="content-author">
+                By Lucy Hiddleston  |  4min read
+              </span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="footer-items">
+              <i class="far fa-heart" style="font-size: 20px;"></i>
+              <span class="numbers">28</span>
+              <img src="./assets/upload.svg" class="footer-icon">
+              <span class="numbers">72</span>
+              <img src="./assets/save.svg" class="footer-icon">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="side-container">
+    <div class="live-container">
+      <div class="live-alert">
+        <span>Live</span>
+        <img src="./assets/rec.svg" alt="Rec">
+      </div>
+      <div class="live-content">
+        <div class="live-header">
+          <img src="./assets/imgs/hat.png" >
+          <span class="live-tittle">
+            Beloved Arizona coach loses battle with coronavirus
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="search-form">
+      <span>
+        Location News
+      </span>
+      <form action="">
+        <label for="">Get Location specific News</label>
+        <input type="text" placeholder="Enter Your Location">
+        <button type="submit">
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+  </div>
 </body>
 </html>
