@@ -15,24 +15,26 @@
 <body>
 <div class="">
   <!-- Barra de navegação -->
-<header>
-  <a href="#">
-    <img class='logo' src="./assets/colorLogo.svg" alt="NBC News" >
-  </a>
-    <nav>
-      <ul>
-        <li>Corona Updates</li>
-        <li>Politics</li>
-        <li>Business</li>
-        <li>Sports</li>
-        <li>World</li>
-        <li>Travel</li>
-        <li>Podcasts</li>
-        <li><i class="far fa-user"></i></li>
-        <li><i class="fas fa-search"></i></li>
-      </ul>
-    </nav>
-</header>
+  <div class='header-container'>
+    <header>
+      <a href="#">
+        <img class='logo' src="./assets/colorLogo.svg" alt="NBC News" >
+      </a>
+        <nav class="header-nav">
+          <ul>
+            <li>Corona Updates</li>
+            <li>Politics</li>
+            <li>Business</li>
+            <li>Sports</li>
+            <li>World</li>
+            <li>Travel</li>
+            <li>Podcasts</li>
+            <li><i class="far fa-user"></i></li>
+            <li><i class="fas fa-search"></i></li>
+          </ul>
+        </nav>
+    </header>
+  </div>
 <!-- Trending Topics -->
 
     <div class="trending-topic">
@@ -53,9 +55,48 @@
     <span>Kanye West says he's running for president in 2020.</span>
   </div>
 <!-- News page -->
-  <main class="news-container">
-
-  </main>
+  <div class="content-container">
+    <div class="news-container">
+      <nav class="news-header"></nav>
+      <div class="news-contents">
+        <div class="news-contents-row">
+          <div class="news-content-card">
+            <div class="card-header"></div>
+            <div class="card-content">
+              <span class="content-tittle">
+                John Lewis to make final journey across Edmund Pettus Bridge in procession
+              </span>
+              <span class="content-text">
+                The body of the late US Rep. John Lewis on Sunday will make the final journey across the famous bridge in Selma, Alabama, where he helped lead a march for voting rights in 1965.
+              </span>
+              <div class="content-credits">
+                <span class="content-time">2 hours ago</span>
+                <span class="content-author">
+                  By Lucy Hiddleston  |  4min read
+                </span>
+              </div>
+            </div>
+            <div class="card-footer">
+              <div class="teste">
+                <i class="fas fa-heart"></i>
+                <img src="./assets/upload.svg" >
+                <img src="./assets/save.svg" >
+              </div>
+            </div>
+          </div>
+          <div class="news-contents-row">
+            <div class="news-content-card">
+              <div class="card-header"></div>
+              <div class="card-content">
+              </div>
+              <div class="card-footer"></div>
+            </div>
+        </div>
+      </div>
+      <div class="news-footer"></div>
+    </div>
+    <div class="live-container"></div>
+  </div>
 </div>
 </body>
 </html>
